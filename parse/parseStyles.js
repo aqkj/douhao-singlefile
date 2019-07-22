@@ -3,9 +3,8 @@
  * @author xiaoqiang <465633678@qq.com>
  * @created 2019/06/28 10:52:50
  */
-const path = require('path')
 const fs = require('fs-extra')
-const { Px2rpx } = require('../../px2rpx')
+const { Px2rpx } = require('@douhao/px2rpx')
 module.exports = async function parseTemplate(styles, fpath, op) {
   try {
     const varLess = `${Array(fpath.slice(fpath.indexOf('/src/') + 5).split('/').length -1).fill('../').join('')}var.less`

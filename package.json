@@ -26,6 +26,7 @@
   "devDependencies": {
     "fs-extra": "^8.1.0",
     "through2": "^3.0.1",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "@douhao/px2rpx": "^0.0.1"
   }
 }
