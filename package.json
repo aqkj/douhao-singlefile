@@ -1,6 +1,6 @@
 {
   "name": "@douhao/singlefile",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "斗号单文件gulp插件",
   "main": "index.js",
   "scripts": {
