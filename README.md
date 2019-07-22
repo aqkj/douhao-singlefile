@@ -1,7 +1,7 @@
 # @douhao/singlefile
 
 [![npm (scoped)](https://img.shields.io/npm/v/@douhao/singlefile.svg)](https://www.npmjs.com/package/@douhao/singlefile)
-[![Downloads]http://img.shields.io/npm/dm/gulp-cli.svg][https://www.npmjs.com/package/@douhao/singlefile]
+[![Downloads](http://img.shields.io/npm/dm/gulp-cli.svg)](https://www.npmjs.com/package/@douhao/singlefile)
 
 使用vue单文件写法开发项目
 
