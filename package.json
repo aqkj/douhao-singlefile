@@ -1,6 +1,6 @@
 {
   "name": "@douhao/singlefile",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "description": "斗号单文件gulp插件",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@douhao/px2rpx": "^0.0.1"
+  },
   "devDependencies": {
     "fs-extra": "^8.1.0",
     "through2": "^3.0.1",
-    "vue-template-compiler": "^2.6.10",
-    "@douhao/px2rpx": "^0.0.1"
+    "vue-template-compiler": "^2.6.10"
   }
 }

@@ -5,9 +5,11 @@
  */
 const fs = require('fs-extra')
 const { Px2rpx } = require('@douhao/px2rpx')
+const path = require('path')
 module.exports = async function parseTemplate(styles, fpath, op) {
   try {
-    const varLess = `${Array(fpath.slice(fpath.indexOf('/src/') + 5).split('/').length -1).fill('../').join('')}var.less`
+    // const varLess = `${Array(fpath.slice(fpath.indexOf('/src/') + 5).split('/').length -1).fill('../').join('')}var.less`
+    const varLess = path.relative(fpath, path.join(process.cwd(), './src/var.less')).slice(3)
     const prefix = `@import url('${varLess}');`
     // console.log(path.resolve(fpath, varLess))
     const { content, lang } = styles[0]

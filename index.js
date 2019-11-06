@@ -26,7 +26,7 @@ exports.Plugin = class ParseVuePlugin {
     // });
   }
 }
-exports.compiler = function(output, options = {}) {
+exports.compiler = function(output) {
   return through.obj((file, enc, callback) => {
     if (file.isNull()) {
       // 返回空文件
